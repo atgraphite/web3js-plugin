@@ -1,0 +1,1 @@
+export const reputationAbi = [{"inputs":[{"internalType":"address","name":"addr","type":"address"}],"name":"getReputation","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"}]
