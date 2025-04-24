@@ -1,6 +1,4 @@
-# @atgraphite/web3-plugin
-
-A plugin for working with the Graphite transactions.
+# A plugin for working with the Graphite transactions
 
 ## Installation
 
