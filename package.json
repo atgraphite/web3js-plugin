@@ -1,0 +1,31 @@
+{
+  "name": "@atgraphite/web3-plugin",
+  "version": "1.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "src/"
+  ],
+  "scripts": {
+    "build": "tsc --build ./tsconfig.json",
+    "prepare": "npm run build",
+    "test": "jest --updateSnapshot"
+  },
+  "keywords": [
+    "graphite",
+    "crypto",
+    "wallet",
+    "web"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "web3": "^4.16.0",
+    "web3-eth-accounts": "^4.3.1",
+    "@ethereumjs/rlp": "^5.0.2",
+    "crypto-js": "^4.2.0",
+    "@types/crypto-js": "^4.2.2"
+  }
+}
