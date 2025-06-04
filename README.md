@@ -21,6 +21,10 @@ web3.eth.accounts.wallet.add(privateKey)
 web3.registerPlugin(new GraphitePlugin(web3))
 ```
 
+You can use our nodes instead of 'node url'.
+
+They are available here: https://docs.atgraphite.com/overview/publish-your-docs
+
 And you're ready to go! 
 
 There are 2 types of nodes, normal and anonymous. Read more about them [here](https://docs.atgraphite.com/)
